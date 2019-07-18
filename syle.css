@@ -1,0 +1,50 @@
+/*font-family: 'Courgette', cursive;*/
+
+body{
+    background:#6d727a;
+  }
+  
+  #name{
+    border: 1px black solid;
+    background-color:grey;
+  }
+  
+  #things{
+  font-family: 'Courgette', cursive;
+  border: 1px black solid;
+  background-color: grey;
+  }
+  
+  #space{
+    background: url("https://miro.medium.com/max/2400/1*6-01ki0yjJzLXWfvVueYBg.jpeg");
+    
+  }
+  #loremIpsum{
+    color:white;
+  }
+  
+  .rocket{
+    transform:rotate(135deg);
+    position:relative;
+    animation-name: example;
+    animation-duration: 10000s;
+    animation-iteration-count: 3s;
+  }
+  
+  #transportSpaceship{
+    transform:rotate(270deg);
+    margin:0px;
+    padding:0px;
+  }
+  
+  
+  
+  
+  @keyframes example {
+    50% {left:250px; top:900px;}
+  }
+  
+  .portal{
+    transform:rotate(90deg);
+  }
+  
